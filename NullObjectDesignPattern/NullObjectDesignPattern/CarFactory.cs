@@ -15,7 +15,7 @@ namespace NullObjectDesignPattern
 				case 3:
 					return new MazdaCar();
 				default:
-					return new NullCar();
+					return NullCar.GetInstance;
 			}
 		}
 	}
